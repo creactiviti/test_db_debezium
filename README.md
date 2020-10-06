@@ -13,5 +13,5 @@ https://github.com/datacharmer/test_db
 # Example
 
 ```
-docker run -it --rm -p -e MYSQL_ROOT_PASSWORD="password" 3306:3306 creactiviti/test_db_debezium
+docker run -it --rm -e MYSQL_ROOT_PASSWORD="password" -p 3306:3306 creactiviti/test_db_debezium
 ```
